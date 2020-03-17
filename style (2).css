@@ -1,0 +1,75 @@
+body {
+    color: yellow;
+    background-color: #008000;
+}
+
+header {
+    background-color: darkgreen;
+}
+
+.navBar {
+    font-size: 150%;
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: yellow;
+}
+
+.navBar:hover {
+    font-size: 150%;
+}
+
+.aboutUs {
+    border: 1px solid black;
+    width: 900px;
+    height: 680px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.openingHours th {
+    border: 2px solid black;
+    width: 50px;
+}
+
+.schedule, table, tr, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.schedule td {
+    width:90px;
+    height: 50px;
+}
+
+table tr:nth-child(even){
+    background-color: lightgreen;
+}
+
+
+.news {
+    border: 1px solid black;
+    height: 500px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    border: 1px solid black;
+    width: 400px;
+    height: 168px;
+}
+
+.newContact {
+    float: left;
+}
+
+img {
+    float: left;
+    margin-left: 20px;
+}
